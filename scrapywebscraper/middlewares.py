@@ -78,6 +78,9 @@ class ScrapywebscraperDownloaderMiddleware:
         # - or return a Request object
         # - or raise IgnoreRequest: process_exception() methods of
         #   installed downloader middleware will be called
+
+        #request.meta['proxy'] = "127.0.0.1"
+
         return None
 
     def process_response(self, request, response, spider):
