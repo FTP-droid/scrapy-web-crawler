@@ -6,4 +6,4 @@ This is a modified project from a web crawling tutorial that will have additiona
 2. 'scrapy crawl mycrawler -o output.json' will do the same as 1. while saving scraped data to a json file titled 'output.json'
 3. 'scrapy shell [url]' will allow the user to interactively scrape a website in real time
 
-## USE RESPONSIBLY. MAY BE BE BLACKLISTED FROM SITES WHEN USED IMPROPERLY
+## USE RESPONSIBLY. YOU MAY BE BE BLACKLISTED FROM SITES WHEN THE CRAWLER IS USED IMPROPERLY.
